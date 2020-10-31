@@ -39,6 +39,11 @@ body {
     
 }
 
+main {
+	padding: 40px 70px;
+	display: flex;
+}
+
 header {
 background-color: white;
 padding: 32px 64px;
@@ -54,11 +59,10 @@ border-radius: 50%;
 margin-bottom: -120;
 margin-right: 24px;
 }
-main {
-	padding: 40px 70px;
-}
+
 .coluna-menor {
 	margin-top: 48px;
+	width: 288px;
 }
 .linha {
 	width: 80px;
@@ -75,10 +79,21 @@ main {
 	height: 40px;
 	border-radius: 4px;
 	margin-right: 8px;
+
+}
+
+.experiencia .linha {
+	border-color: #4200ff;
+}
+
+.formacao .linha {
+	border-color: #ffc700;
 }
 
 .coluna-menor li {
+	display: flex;
 	margin-top: 32px;
+	
 }
 
 .conteudo {
@@ -89,6 +104,26 @@ ul, ol {
 	list-style-type: none;
 	padding: 0;
 }
+.coluna-maior {
+	margin-left: 24px;
+
+}
+
+.formacao {
+	margin-top: 32px;
+}
 
 
+
+.habilidades h2 {
+	font-size: 54px;
+	margin-bottom: 20px;
+
+}
+ 
+ .habilidade {
+ 	background-color: white;
+ 	border-radius: 8px;
+ 	padding: 24px;
+ }
  /*buscar imagens na internet*/
